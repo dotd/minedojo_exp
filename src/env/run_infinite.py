@@ -11,7 +11,6 @@ def run_infinite():
 
     env.reset()
     while True:
-
         obs, reward, done, info = env.step(env.action_space.no_op())
 
 
